@@ -1,0 +1,101 @@
+-root {
+  --editWhite: #efe1d1;
+  --editPink: #a78295;
+  --editPurple: #3f2e3e;
+  --editBrown: #331d2c;
+}
+
+/* GENERAL CSS RULES */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #331d2c;
+  background-color: #efe1d13f;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: #a78295;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+ul {
+  text-align: left;
+  margin-top: 10px;
+}
+
+li > p {
+  margin: 2px;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+}
+
+/* GENERAL CONTAINER */
+
+.general-container {
+  width: 80%;
+  margin: auto;
+}
+
+/* GRID CONTAINER */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px;
+}
+
+/* SECTION CSS */
+
+.sectionX {
+  border: 2px solid #3f2e3e;
+  border-radius: 10px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.sectionX h3 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.sectionX > p {
+  text-align: justify;
+  margin: 0 15px;
+}
+
+.content-img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.subtitle-section {
+  margin-left: 15px;
+  text-align: left;
+  padding-top: 15px;
+  margin-bottom: 0;
+  clear: left;
+}
+
+.date-end {
+  color: #a78295;
+  padding-top: 15px;
+}
